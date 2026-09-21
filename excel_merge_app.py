@@ -5,7 +5,7 @@ import io
 st.set_page_config(page_title="스마트 엑셀 취합기", layout="wide")
 
 st.title("📁 스마트 엑셀 취합 프로그램")
-st.markdown("공통 항목은 표준명으로 묶고, 나머지 고유 열은 원본 헤더 그대로 살려 병합합니다.")
+st.markdown("양식이 조금 달라도 걱정마세요! 여러 개의 엑셀 파일을 업로드하여 깔끔하게 하나로 병합해 드립니다.")
 
 # 1. 파일 업로드
 uploaded_files = st.file_uploader(
