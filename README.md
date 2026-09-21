@@ -40,4 +40,4 @@ cd 저장소이름
 pip install -r requirements.txt
 
 # 3. Streamlit 앱 실행
-streamlit run app.py
+streamlit run excel_merge_app.py
